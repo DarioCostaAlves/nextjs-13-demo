@@ -1,7 +1,13 @@
 import React from "react";
+import TodoList from "./TodoList";
 
-function page() {
-  return <div>Todos</div>;
+function Todos() {
+  return (
+    <div>
+      {/* @ts-ignore */}
+      <TodoList />
+    </div>
+  );
 }
 
-export default page;
+export default Todos;
